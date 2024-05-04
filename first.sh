@@ -5,4 +5,9 @@
 # Connect to Internet and do initial updates
 sudo apt update -y
 sudo apt upgrade -y 
-sudo apt install github
+# Probably already in the base
+sudo apt install git
+# Generate keys
+ssh-keygen
+ssh-add ~/.ssh/id_rsa
+
