@@ -11,3 +11,4 @@ sudo apt install git
 ssh-keygen
 ssh-add ~/.ssh/id_rsa
 ssh -T git@github.com
+echo "Copy the public key up to your GITHUB account
