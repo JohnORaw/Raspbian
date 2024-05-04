@@ -10,4 +10,4 @@ sudo apt install git
 # Generate keys
 ssh-keygen
 ssh-add ~/.ssh/id_rsa
-
+ssh -T git@github.com
