@@ -9,6 +9,7 @@ sudo apt upgrade -y
 sudo apt install git
 # Generate keys
 ssh-keygen
-ssh-add ~/.ssh/id_rsa
+chmod 400 ~/.ssh/id_ed25519.pub
+ssh-add ~/.ssh/id_ed25519
 ssh -T git@github.com
 echo "Copy the public key up to your GITHUB account
