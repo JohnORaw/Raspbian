@@ -15,4 +15,5 @@ eval `ssh-agent -s`
 ssh-add id_rsa
 
 echo "Copy the public key up to your GITHUB account
+read -p "Press enter when you have registered the key"
 ssh -T git@github.com
