@@ -8,6 +8,7 @@
 sudo apt install rpi-connect-lite
 rpi-connect on
 rpi-connect signin
+loginctl enable-linger
 
 # Update and upgrade before starting
 sudo apt update
